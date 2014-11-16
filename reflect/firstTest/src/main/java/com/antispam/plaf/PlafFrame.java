@@ -19,9 +19,9 @@ public class PlafFrame extends JFrame {
         for(UIManager.LookAndFeelInfo info : infos) {
             makeButton(info.getName(),info.getClassName());
         }
-        //add(buttonPanel);
-        JPanel calculator = new Calculator();
-        add(calculator);
+        add(buttonPanel);
+        //JPanel calculator = new Calculator();
+        //add(calculator);
         pack();
     }
 
