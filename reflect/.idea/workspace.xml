@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2ff5868-ff29-42b9-be7c-4b251a29b19e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/Ball.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BallComponent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BallRunnable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/Bounce.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BounceFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/jstorm/RotatingMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/test/TestList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/jstorm/TestRTMap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/robot/ButtonFrame.java" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/robot/ButtonFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BlockingQueueTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="b0db31a0-048c-47ef-92b3-f50aa19f806d" name="generic" comment="" />
@@ -59,17 +51,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BounceFrame.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BounceFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BounceFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3410042" vertical-offset="467" max-vertical-offset="945">
-              <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#659#815#0" expanded="true" />
                 <element signature="e#804#805#0" expanded="true" />
                 <element signature="e#858#1019#0" expanded="true" />
                 <element signature="e#1008#1009#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockingQueueTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BlockingQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.6762115" vertical-offset="1151" max-vertical-offset="1605">
+              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#688#694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,6 +189,7 @@
         <option value="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/Ball.java" />
         <option value="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BallComponent.java" />
         <option value="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BounceFrame.java" />
+        <option value="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BlockingQueueTest.java" />
       </list>
     </option>
   </component>
@@ -664,23 +670,7 @@
       <recent name="$PROJECT_DIR$/firstTest/src/main/java/com/antispam/reflect" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bounce">
-    <configuration default="false" name="PairTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.com.antispam.Generic.PairTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="firstTest" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BlockingQueueTest">
     <configuration default="false" name="TestRTMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.antispam.jstorm.TestRTMap" />
       <option name="VM_PARAMETERS" />
@@ -743,6 +733,22 @@
     </configuration>
     <configuration default="false" name="PlafFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.com.antispam.plaf.PlafFrame" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="firstTest" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BlockingQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.com.antispam.ThreadTest.BlockingQueueTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -887,19 +893,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PairTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestRTMap" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Bounce" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SizedFrameTest" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PlafFrame" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TestRTMap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Bounce" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SizedFrameTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PlafFrame" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BlockingQueueTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Bounce" />
-        <item index="1" class="java.lang.String" itemvalue="Application.PlafFrame" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SizedFrameTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestRTMap" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PairTest" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BlockingQueueTest" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Bounce" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PlafFrame" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SizedFrameTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestRTMap" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -942,7 +948,11 @@
       <created>1418146249215</created>
       <updated>1418146249215</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reflect">
+      <created>1418837197434</created>
+      <updated>1418837197435</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -966,7 +976,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2640625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29747677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32934928" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1002,13 +1012,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/reflect/ReflectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/innerClass/InnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="780">
@@ -1191,6 +1194,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39310345" vertical-offset="0" max-vertical-offset="725">
           <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1392,14 +1398,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BounceFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3410042" vertical-offset="467" max-vertical-offset="945">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#659#815#0" expanded="true" />
             <element signature="e#804#805#0" expanded="true" />
             <element signature="e#858#1019#0" expanded="true" />
             <element signature="e#1008#1009#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firstTest/src/main/java/com/antispam/ThreadTest/BlockingQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6762115" vertical-offset="1151" max-vertical-offset="1605">
+          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#688#694#0" expanded="true" />
           </folding>
         </state>
       </provider>
